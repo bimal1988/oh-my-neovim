@@ -34,7 +34,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'maximbaz/lightline-ale'
 
 " Fuzzy finder
-Plug '~/.fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 " Navigate files in sidebar
 Plug 'scrooloose/nerdtree'
