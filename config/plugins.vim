@@ -33,6 +33,9 @@ Plug 'yuttie/comfortable-motion.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'maximbaz/lightline-ale'
 
+" DevIcons
+Plug 'ryanoasis/vim-devicons'
+
 " Fuzzy finder
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
