@@ -43,6 +43,7 @@ Plug 'junegunn/fzf.vim'
 " Navigate files in sidebar
 Plug 'scrooloose/nerdtree'
 Plug 'xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " Asynchronous linting
 Plug 'w0rp/ale'
