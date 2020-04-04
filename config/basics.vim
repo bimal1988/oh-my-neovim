@@ -94,7 +94,6 @@ set sidescrolloff=2     " Keep at least 2 chars left/right
 set foldcolumn=1	    " Add a bit extra margin to the left
 
 set number		        " Show line numbers
-set relativenumber	    " Show relative line numbers
 set ruler		        " Always show current position
 set cursorline		    " Highlights current line
 
