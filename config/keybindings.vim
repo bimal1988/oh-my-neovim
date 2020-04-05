@@ -147,6 +147,7 @@ nnoremap <C-p> :Files<CR>
 
 " Nerd Tree
 map <leader>n :NERDTreeToggle<cr>
+map <leader>j :NERDTreeFind<CR>
 
 " Git gutter (Git diff)
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
