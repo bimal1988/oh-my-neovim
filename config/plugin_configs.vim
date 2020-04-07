@@ -26,7 +26,7 @@ let g:python_highlight_space_errors = 0
 let g:lightline = {
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'fugitive', 'readonly', 'modified' ] ],
+      \             [ 'fugitive', 'filename', 'readonly', 'modified' ] ],
       \   'right': [ [ 'lineinfo' ], [ 'percent' ], [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_ok' ],
       \              [ 'cocstatus', 'fileformat', 'fileencoding', 'filetype' ] ]
       \ },
@@ -77,7 +77,7 @@ let g:lightline.tabline = {
       \   'right': [ ['close'] ]
 \ }
 
-set showtabline=2  " Show tabline
+set showtabline=0  " Don't show tabline
 set guioptions-=e  " Don't use GUI tabline
 let g:lightline#ale#indicator_checking = "⌛"
 let g:lightline#ale#indicator_warnings = "◆ "
@@ -90,7 +90,7 @@ let g:lightline#ale#indicator_ok = "✔︎"
 let g:gitgutter_enabled=0
 
 " ===========================================================
-" ===                       Coc                      ===    
+" ===                         Coc                         ===
 " ===========================================================
 
 
@@ -98,4 +98,8 @@ let g:gitgutter_enabled=0
 " ===                         FZF                         ===
 " ===========================================================
 let g:fzf_files_options =
-      \ '--preview "(bat --style=numbers --color=always {} 2> /dev/null || cat {} || tree -C {}) 2> /dev/null | head -200"'
+      \ '--preview
+      \ "(bat --style=numbers --color=always {} 2> /dev/null ||
+      \ cat {} ||
+      \ tree -C {}) 2> /dev/null
+      \ | head -200"'
