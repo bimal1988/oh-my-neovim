@@ -15,9 +15,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 " Add or remove your plugins here:
 " Make sure you use single quotes
-" Colorschemes
-Plug 'icymind/neosolarized'
-Plug 'joshdick/onedark.vim'
+" Colorscheme
 Plug 'morhetz/gruvbox'
 
 " Syntax highlighting

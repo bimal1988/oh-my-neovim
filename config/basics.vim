@@ -145,7 +145,6 @@ endif
 syntax enable 
 
 " Set colors in terminal
-" NeoSolarized / onedark
 set background=dark
 colorscheme gruvbox
 
