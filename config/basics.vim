@@ -136,10 +136,8 @@ set history=500			" History saving
 " ===========================================================
 " ===                   Colors and Fonts                  ===    
 " ===========================================================
-if $COLORTERM == 'gnome-terminal'	" Enable 256 colors palette in Gnome Terminal
-    set t_Co=256
-    set termguicolors
-endif
+" Enable truecolors
+set termguicolors
 
 " Enable syntax highlighting
 syntax enable 
