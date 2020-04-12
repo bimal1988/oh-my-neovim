@@ -70,8 +70,7 @@ Plug 'tpope/vim-surround'
 Plug 'yggdroot/indentline'
 Plug 'jiangmiao/auto-pairs'
 
-" CTag generation and tagbar navigation
-Plug 'craigemery/vim-autotag'
+" Tagbar navigation
 Plug 'majutsushi/tagbar'
 
 " Tmux integration
