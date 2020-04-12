@@ -144,6 +144,7 @@ syntax enable
 
 " Set colors in terminal
 set background=dark
+let g:gruvbox_italic=1
 colorscheme gruvbox
 
 " Set extra options when running in GUI mode
