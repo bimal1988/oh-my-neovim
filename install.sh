@@ -39,7 +39,7 @@ main() {
     ensure ln -s -f $SCRIPT_DIR/coc-settings.json $NVIM_CONF_DIR/coc-settings.json
 
     info "Installing python support for neovim.."
-    python3 -m pip install neovim flake8 autopep8 isort
+    python3 -m pip install pynvim flake8 autopep8 isort
 
     info "Downloading vim plug.."
     ensure downloader "$PLUG_DOWNLOAD_URL" "$PLUG_INSTALL_DIR/plug.vim"
