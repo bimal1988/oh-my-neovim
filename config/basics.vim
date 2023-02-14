@@ -9,7 +9,7 @@ let $VARPATH = expand(($XDG_CACHE_HOME ? $XDG_CACHE_HOME : '~/.config/nvim').'/t
 " ===                    Set Providers                    ===
 " ===========================================================
 let g:loaded_python_provider=0                              " Disable Python 2 support
-let g:python3_host_prog='$HOME/miniconda3/bin/python3.8'    " Path to python3 executable
+let g:python3_host_prog='$HOME/.pyenv/shims/python3.11'    " Path to python3 executable
 
 " ===========================================================
 " ===                  General Settings                   ===    
